@@ -1,0 +1,362 @@
+/*------------------------------------------------------------------
+    Version: 1.0
+-------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+    [Table of contents]
+
+    1. DEFAULT VERSION (Check style.css and colors.css)
+    2. HOSTING VERSION
+    3. SEO VERSION
+    4. WATCH VERSION
+    5. APP VERSION
+    6. CLINIC VERSION
+    7. REAL ESTATE VERSION
+    8. POLITICS VERSION
+    9. CHERII VERSION
+    10. BUILDING VERSION
+
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+    1. CHERII
+-------------------------------------------------------------------*/
+
+body.cherii_version .participate-wrap small,
+body.cherii_version .message-box h4,
+body.cherii_version .customwidget li i,
+body.cherii_version .navbar-nav span {
+    color: #424145 !important;
+}
+
+body.cherii_version .sidebar-nav li:hover a {
+    background: #ed2d46;
+	color: #ffffff;
+}
+
+body.cherii_version .lead strong,
+body.cherii_version .icon-wrapper:hover a,
+body.cherii_version a:hover,
+body.cherii_version a:focus {
+    color: #ed2d46;
+}
+
+
+/**************************************
+GRADIENTS 
+**************************************/
+
+body.cherii_version .icon_wrap:hover,
+body.cherii_version .nav-pills > li.active > a,
+body.cherii_version .nav-pills > li.active > a:focus,
+body.cherii_version .nav-pills > li.active > a:hover,
+body.cherii_version .icon-wrapper:hover i{
+    color: #ffffff;
+    background: #ed2d46;   
+}
+
+body.cherii_version .grd1 {
+	color: #ffffff;
+    background: #111111;
+}
+
+body.cherii_version .dmtop,
+body.cherii_version .icon_wrap,
+body.cherii_version .dmtop:hover,
+body.cherii_version .features-right li:hover i,
+body.cherii_version .features-left li:hover i,
+body.cherii_version .nav-pills > li:hover > a,
+body.cherii_version .nav-pills > li:focus > a,
+body.cherii_version .nav-pills > li.active > a,
+body.cherii_version .nav-pills > li.active > a:focus,
+body.cherii_version .nav-pills > li.active > a:hover,
+body.cherii_version .divider-bar,
+body.cherii_version .icon-wrapper:hover i:hover{
+    background-position: 100px;
+    color: #ffffff;
+    background: #111111;
+}
+
+body.cherii_version .grd1:hover,
+body.cherii_version .grd1:focus {
+	color: #ffffff;
+    background: #ed2d46;
+}
+
+body.cherii_version .cac:hover{
+	background: #ed2d46;
+}
+
+body.cherii_version .effect-1:after {
+    box-shadow: 0 0 0 2px #ed2d46;
+}
+
+body.cherii_version {    
+    overflow-x: hidden;
+}
+
+body.cherii_version .first-section .grd1 {
+    border: 0 !important;
+    padding: 17px 40px;
+    font-size: 15px;
+	font-weight: 600;
+}
+
+
+
+body.cherii_version .section.lb {
+    background-color: #f9f9f9;
+}
+
+
+/* Toggle Styles */
+
+body.cherii_version .menuopener {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background-color: #ed2d46;
+    z-index: 111;
+    color: #fff !important;
+    width: 50px;
+    height: 50px;
+    display: none;
+    line-height: 50px;
+	font-size: 24px;
+    text-align: center;
+}
+
+body.cherii_version .menuopener:hover{
+	background-color: #111111;
+}
+
+body.cherii_version #wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+body.cherii_version #wrapper.toggled {
+    padding-left: 280px;
+}
+
+body.cherii_version #sidebar-wrapper {
+    z-index: 1000;
+    border-right: 1px dashed rgba(255, 255, 255, 0.1);
+    position: fixed;
+    left: 280px;
+    width: 0;
+    height: 100%;
+    margin-left: -280px;
+    overflow-y: auto;
+    background: #111111;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+body.cherii_version .contact_form {
+    background-color: #ffffff;
+    border: 0;
+}
+
+body.cherii_version .contact_form .form-control {
+    background-color: #000;
+    border: 0;
+    border-bottom: 2px solid #1f1f1f;
+	height: 55px;
+}
+
+body.cherii_version .contact_form .btn {
+    border: 0 !important;
+}
+
+body.cherii_version .contact_form .btn.subt{
+	background: #ed2d46;
+}
+
+body.cherii_version .section.db,
+body.cherii_version .footer-rights,
+body.cherii_version .cac,
+body.cherii_version .footer {
+    background-color: #f6f6f6;
+}
+
+body.cherii_version #wrapper.toggled #sidebar-wrapper {
+    width: 280px;
+}
+
+
+body.cherii_version #wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -280px;
+}
+
+body.cherii_version .first-section h2 strong {
+    font-size: 68px;
+}
+
+body.cherii_version .first-section h2 {
+    font-size: 52px;
+}
+
+
+/* Sidebar Styles */
+
+
+body.cherii_version .container-fluid {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+body.cherii_version .logo-sidebar {
+    display: block;
+    margin: 0 0 2em;
+}
+
+body.cherii_version .sidebar-nav li {
+    line-height: 45px;
+	margin-bottom: 15px;
+}
+
+body.cherii_version .sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #999999;
+	background-color: transparent;
+	font-weight: 600;
+	padding: 7px 17px 7px;
+	-webkit-border-radius: 10px;
+	-ms-border-radius: 10px;
+	border-radius: 10px;
+	line-height: 21px;
+}
+
+body.cherii_version .sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+body.cherii_version .sidebar-nav li a:active,
+body.cherii_version .sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+body.cherii_version .section-title h3 {
+    font-size: 34px;
+    padding: 10px 0 0;
+    font-weight: bold;
+    line-height: 1 !important;
+}
+
+body.cherii_version .section-title small {
+    font-size: 15px;
+}
+
+body.cherii_version .section-title hr {
+    width: 100px;
+    margin: 0 auto 30px !important;
+    padding: 1px;
+    background-color: #111;
+}
+
+body.cherii_version hr.invis4 {
+    margin: 90px 0 0;
+    border: 0;
+}
+
+body.cherii_version .service-wrap {
+    margin: 30px 0;
+	padding: 20px;
+    display: block;
+    position: relative;
+    background: #ffffff;
+	-webkit-box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
+	box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
+	border-radius: 10px;
+	transition: all 1s ease-in-out;
+}
+
+body.cherii_version .service-wrap h4 {
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+body.cherii_version .service-wrap p,
+body.cherii_version .service-wrap p {
+    margin-bottom: 0;
+}
+
+body.cherii_version .service-wrap img {
+    max-width: 120px;
+    margin: 0px;
+}
+
+body.cherii_version .dev-list .widget p {
+    margin: 0;
+    padding: 5px 0 15px;
+}
+
+body.cherii_version .dev-list img {
+    width: 100%;
+}
+
+body.cherii_version .dev-list .widget {
+    padding: 15px;
+	margin-bottom: 30px;
+    border: 1px solid #ededed;
+	-webkit-box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
+	box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
+}
+
+body.cherii_version .dev-list .widget h3 {
+    font-size: 21px;
+    padding: 0 0 5px;
+    margin: 0;
+	font-weight: 600;
+    line-height: 1 !important;
+}
+
+body.cherii_version .dev-list .grd1 {
+    margin: 0 2px;
+    border-radius: 0px;
+}
+
+body.cherii_version .dev-list .widget-title {
+    padding: 20px 0 10px;
+    margin: 0;
+    line-height: 1 !important;
+}
+
+@media(max-width:768px) {
+    body.cherii_version .menuopener {
+        display: block;
+    }
+    body.cherii_version .first-section h2 strong,
+    body.cherii_version .first-section h2 {
+        font-size: 36px;
+    }
+}
+
+@media(min-width:768px) {
+    body.cherii_version #wrapper.toggled {
+        padding-left: 0;
+    }
+    body.cherii_version #wrapper.toggled #sidebar-wrapper {
+        width: 0;
+    }
+    body.cherii_version #page-content-wrapper {
+        padding: 0;
+        position: relative;
+    }
+    body.cherii_version #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+    }
+}
+

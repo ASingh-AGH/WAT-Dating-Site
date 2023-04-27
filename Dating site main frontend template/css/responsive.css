@@ -1,0 +1,127 @@
+/******************************************
+    Version: 1.0
+/****************************************** */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {}
+@media (min-width: 768px) and (max-width: 991px) {
+	
+}
+@media (max-width: 767px) {
+	.top-navbar .navbar{
+		padding: 15px 10px;
+	}
+	.middle-bar {
+		opacity: 0;
+	}
+	.collapsed .middle-bar {
+		opacity: 1;
+	}
+	.top-bar {
+		transform: rotate(45deg);
+		transform-origin: 10% 10%;
+	}
+	.bottom-bar {
+		transform: rotate(-45deg);
+		transform-origin: 10% 90%;
+	}
+	.collapsed .top-bar {
+		transform: rotate(0);
+	}
+	.collapsed .bottom-bar {
+		transform: rotate(0);
+	}
+	
+	.home-hero .big-tagline h2{
+		font-size: 22px;
+	}
+	.lead{
+		font-size: 13px;
+	}
+	.section{
+		padding: 40px 0;
+	}
+	.message-box{
+		padding: 10px 0px;
+		margin-bottom: 30px;
+	}
+	hr.hr1{
+		margin: 30px 0;
+	}
+	.flex-items-xs-middle .card{
+		margin-bottom: 30px;
+	}
+	body.cherii_version .dev-list .grd1{
+		padding: 7px;
+	}
+	body.cherii_version .section-title h3{
+		font-size: 24px;
+	}
+	.footer-rights{
+		padding: 50px 0px;
+	}
+	.all-page-bar .title h1{
+		font-size: 28px;
+	}
+	.contact_form{
+		padding: 40px 0px;
+	}
+}
+@media only screen and (min-width: 280px) and (max-width: 599px) {
+	.top-navbar .navbar{
+		padding: 15px 10px;
+	}
+	.middle-bar {
+		opacity: 0;
+	}
+	.collapsed .middle-bar {
+		opacity: 1;
+	}
+	.top-bar {
+		transform: rotate(45deg);
+		transform-origin: 10% 10%;
+	}
+	.bottom-bar {
+		transform: rotate(-45deg);
+		transform-origin: 10% 90%;
+	}
+	.collapsed .top-bar {
+		transform: rotate(0);
+	}
+	.collapsed .bottom-bar {
+		transform: rotate(0);
+	}
+	
+	.home-hero .big-tagline h2{
+		font-size: 22px;
+	}
+	.lead{
+		font-size: 13px;
+	}
+	.section{
+		padding: 40px 0;
+	}
+	.message-box{
+		padding: 10px 0px;
+		margin-bottom: 30px;
+	}
+	hr.hr1{
+		margin: 30px 0;
+	}
+	.flex-items-xs-middle .card{
+		margin-bottom: 30px;
+	}
+	body.cherii_version .dev-list .grd1{
+		padding: 7px;
+	}
+	body.cherii_version .section-title h3{
+		font-size: 24px;
+	}
+	.footer-rights{
+		padding: 50px 0px;
+	}
+	.all-page-bar .title h1{
+		font-size: 28px;
+	}
+	.contact_form{
+		padding: 40px 0px;
+	}
+}
