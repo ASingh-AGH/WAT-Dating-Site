@@ -2616,5 +2616,41 @@ body.cherii_version .dev-list .widget:hover .hover-br .social-up-hover .footer-s
 
 
 
+/*------------------------------------------------------------------
+    FAQ 
+-------------------------------------------------------------------*/
 
+summary {
+    font-size: 1.25rem;
+    font-weight: 600;
+    background-color: #fff;
+    color: #333;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    outline: none;
+    border-radius: 0.25rem;
+    text-align: left;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .faq-content {
+    margin-left: 20px;
+    padding: 10px;
+  }
 
+  summary:hover {
+    color: #ed2d46;
+  }
+  
+  summary::marker {
+    color: #333;
+  }
+  
+  summary:hover::marker {
+    color: #ed2d46;
+  }
+  
+  details > summary::-webkit-details-marker {
+    display: none;
+  }

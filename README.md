@@ -17,4 +17,5 @@ Week by week progress:
 - Acceptance Criteria
 - Logo and Concept
 - Visual Planning + Initial Backend
-- Frontend Dev
+- Frontend Dev, about pages
+- Frontend Dev, faq
