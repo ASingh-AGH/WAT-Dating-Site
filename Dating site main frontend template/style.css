@@ -1657,6 +1657,7 @@ hr.invis1 {
     z-index: auto;
 }
 
+
 .bootstrap-select.btn-group:not(.input-group-btn),
 .bootstrap-select.btn-group[class*="col-"] {
     float: none;
@@ -1987,6 +1988,56 @@ select.mobile-device {
     background: url(images/bg.png) no-repeat center center #fff;
 }
 
+
+
+/*------------------------------------------------------------------
+    LOGIN
+-------------------------------------------------------------------*/
+
+.login_form {
+    border: 1px solid #ededed;
+    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.1);
+    background-color: #b94a48;
+    padding: 40px 30px;
+}
+
+.login_form .form-control {
+    background-color: #fff;
+    margin-bottom: 30px;
+    border: 1px solid #ebebeb;
+    box-sizing: border-box;
+    color: #bcbcbc;
+    font-size: 16px;
+    outline: 0 none;
+    padding: 10px 25px;
+    height: 55px;
+    resize: none;
+    box-shadow: none !important;
+    width: 100%;
+}
+
+.login_form textarea {
+    color: #bcbcbc;
+    padding: 20px 25px !important;
+    height: 160px !important;
+}
+
+.login_form .form-control::-webkit-input-placeholder {
+    color: #bcbcbc;
+}
+
+.login_form .form-control::-moz-placeholder {
+    opacity: 1;
+    color: #bcbcbc;
+}
+
+.login_form .form-control::-ms-input-placeholder {
+    color: #bcbcbc;
+}
+
+#login {
+    background: url(images/bg.png) no-repeat center center #fff;
+}
 
 /*------------------------------------------------------------------
     FOOTER
@@ -2654,3 +2705,37 @@ summary {
   details > summary::-webkit-details-marker {
     display: none;
   }
+
+  
+/*------------------------------------------------------------------
+    UPLOAD
+-------------------------------------------------------------------*/
+
+  .file-upload {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed #ccc;
+    padding: 20px;
+    cursor: pointer;
+  }
+
+  .file-upload:hover {
+    background-color: #eee;
+  }
+
+  .file-upload input[type=file] {
+    display: none;
+  }
+
+  .file-upload-icon {
+    font-size: 40px;
+    color: #666;
+    margin-right: 10px;
+  }
+
+  .file-upload-text {
+    font-size: 20px;
+    color: #333;
+  }
+
