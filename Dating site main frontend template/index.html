@@ -1,121 +1,335 @@
 <!DOCTYPE html>
-<!-- saved from url=(0142)file:///D:/D%20Drive/Downloads/AGH/Summer%20Semester%202023/[WAT]/original%20website%20templates/daily-ui-013-direct-messaging/dist/index.html -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  
-  <title>CodePen - Daily UI #013 | Direct Messaging</title>
-  <link rel="stylesheet" href="./index_files/normalize.min.css">
-<link rel="stylesheet" href="./index_files/all.min.css"><link rel="stylesheet" href="./index_files/style.css">
+<html lang="en">
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <!-- Site Metas -->
+    <title>Cherii Dating Site WAT 2023 project</title>  
+    <meta name="keywords" content="Dating site">
+    <meta name="description" content="Summer Project WAT 2024">
+    <meta name="author" content="Apoorva Singh, Pierre Rheeder, Berkay Doruk, Oghuzhan Ozdil">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/cherii_favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/cherii_cherii_apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ALL VERSION CSS -->
+    <link rel="stylesheet" href="css/versions.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
 </head>
-<body>
-<!-- partial:index.partial.html -->
-<div class="center">
-  <div class="contacts">
-    <i class="fas fa-bars fa-2x"></i>
-    <h2>
-      Contacts
-    </h2>
-    <div class="contact">
-      <div class="pic rogers"></div>
-      <div class="badge">
-        14
-      </div>
-      <div class="name">
-        Steve Rogers
-      </div>
-      <div class="message">
-        That is America's ass 🇺🇸🍑
-      </div>
-    </div>
-    <div class="contact">
-      <div class="pic stark"></div>
-      <div class="name">
-        Tony Stark
-      </div>
-      <div class="message">
-        Uh, he's from space, he came here to steal a necklace from a wizard.
-      </div>
-    </div>
-    <div class="contact">
-      <div class="pic banner"></div>
-      <div class="badge">
-        1
-      </div>
-      <div class="name">
-        Bruce Banner
-      </div>
-      <div class="message">
-        There's an Ant-Man *and* a Spider-Man?
-      </div>
-    </div>
-    <div class="contact">
-      <div class="pic thor"></div>
-      <div class="name">
-        Thor Odinson
-      </div>
-      <div class="badge">
-        3
-      </div>
-      <div class="message">
-        I like this one
-      </div>
-    </div>
-    <div class="contact">
-      <div class="pic danvers"></div>
-      <div class="badge">
-        2
-      </div>
-      <div class="name">
-        Carol Danvers
-      </div>
-      <div class="message">
-        Hey Peter Parker, you got something for me?
-      </div>
-    </div>
-  </div>
-  <div class="chat">
-    <div class="contact bar">
-      <div class="pic stark"></div>
-      <div class="name">
-        John Doe
-      </div>
-      <div class="seen">
-        Today at 12:56
-      </div>
-    </div>
-    <div class="messages" id="chat">
-      <div class="time">
-        Today at 11:41
-      </div>
-      <div class="message parker">
-        Hey, whats up?&nbsp;👋
-      </div>
-      <div class="message stark">
-        This is a demo for a wat project 
-      </div>
-      <div class="message parker">
-        Dating site! 🥰
-      </div>
-      <div class="message parker">
-        Chat box preview looking good yet? 🤔
-      </div>
-      <div class="message stark">
-        Yep! Standard template and design functionality used~.
-      </div>
-      <div class="message stark">
-        <div class="typing typing-1"></div>
-        <div class="typing typing-2"></div>
-        <div class="typing typing-3"></div>
-      </div>
-    </div>
-    <div class="input">
-      <i class="fas fa-camera"></i><i class="far fa-laugh-beam"></i><input placeholder="Type your message here!" type="text"><i class="fas fa-microphone"></i>
-    </div>
-  </div>
-</div>
-<!-- partial -->
-  <script src="./index_files/jquery.min.js.download"></script><script src="./index_files/script.js.download"></script>
+<body class="cherii_version">
 
+    <!-- LOADER -->
+    <div id="preloader">
+        <div class="cube-wrapper">
+		  <div class="cube-folding">
+			<span class="leaf1"></span>
+			<span class="leaf2"></span>
+			<span class="leaf3"></span>
+			<span class="leaf4"></span>
+		  </div>
+		  <div class="mus">
+			<img src="images/cherii_lode-img.png" alt="" />
+		  </div>
+		  <span class="loading" data-name="Loading">Cherii Loading</span>
+		</div>
+    </div><!-- end loader -->
+    <!-- END LOADER -->
 
+	<div class="top-add alert alert-light alert-dismissible">
+		<button type="button" class="close" data-dismiss="alert">&times;</button>
+		<strong>Success!</strong> This alert box could indicate a successful or positive action.
+	</div>
+	<!-- Start header -->
+	<header class="top-navbar">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container">
+				<a class="navbar-brand" href="index.html">
+					<!-- <img src="images/cherii_logo.png" alt="" /> -->
+					<img src="images/cherii_logo.png" alt="" />
+				</a>
+				<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbars-rs-food" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="icon-bar top-bar"></span>
+					<span class="icon-bar top-bar"></span>
+					<span class="icon-bar middle-bar"></span>
+					<span class="icon-bar bottom-bar"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbars-rs-food">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+						<li class="nav-item"><a class="nav-link" href="browsingprofiles.html">Browse Dates</a></li>
+						<li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+						<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+						<li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- End header -->
 
-</body></html>
+	<div id="home" class="parallax">
+		<div id="full-width" class="owl-carousel owl-theme home-hero">
+			<div class="text-center item slider-01 display-table overlay">
+				<div class="display-table-cell">
+					<div class="big-tagline text-center">
+						<h2><strong>Find the one you cherish</strong><br>
+						cherii</h2>
+						<p class="lead">Something cheesy that, <br>I hope no one will bother to read for the demo!</p>
+						<a href="#" class="btn btn-light btn-radius btn-brd grd1 effect-1 butn">Find Match</a>
+					</div>
+				</div>
+			</div>
+			<div class="text-center item slider-02 display-table overlay">
+				<div class="display-table-cell">
+					<div class="big-tagline text-center">
+						<h2><strong>The Dating Site</strong><br>
+						to change your love life</h2>
+						<p class="lead">With Cherrii Dating app<br>you can find the one soulmate of your dreams!</p>
+						<a href="#" class="btn btn-light btn-radius btn-brd grd1 effect-1 butn">Find Match</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end section -->
+		
+	<!-- Page Content -->
+	<div id="page-content-wrapper">			
+		<div class="section wb">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-md-6 text-left">
+						<div class="message-box">
+							<h4>About</h4>
+							<h2>Welcome to Cherii</h2>
+							<p class="lead">
+								Are you looking for love, friendship, or something in between? Do you want to meet someone who shares your interests, values, and lifestyle?
+							</p>
+							<p>
+								We are more than just a dating site. We are a community of people who share your values and goals. We are here to support you, guide you, and inspire you. We are here to make your dating experience enjoyable and rewarding. We are here to help you find your Cherii.
+							</p>
+
+							<a href="about.html" data-scroll class="btn btn-light btn-radius btn-brd grd1 effect-1">Learn More</a>
+						</div><!-- end messagebox -->
+					</div><!-- end col -->
+					<div class="col-md-6 text-center">
+						<div class="right-box">
+							<img class="img-fluid" src="uploads/cherii_bw_about-img.png" alt="" />
+						</div>
+					</div><!-- end col -->
+				</div><!-- end row -->
+
+				<div class="row">
+					<div class="col-md-12">
+						<div class="about-tab">
+							<ul class="nav nav-pills nav-justified" id="myTab" role="tablist">
+								<li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+								<li class="nav-item"><a class="nav-link active" href="about.html">FAQ</a></li>
+								<li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>								
+							</ul>
+						</div>
+					</div><!-- end col -->
+				</div><!-- end row -->
+			</div><!-- end container -->
+		</div><!-- end section -->
+
+		<div id="services" class="section lb">
+			<div class="container">
+				<div class="section-title row text-center">
+					<div class="col-md-8 offset-md-2">
+					<small>WHY US?</small>
+					<h3>EXPLORE CHERII</h3>
+					<hr class="grd1">
+					<p class="lead">
+
+					</p>
+					</div>
+				</div><!-- end title -->
+
+				<div class="row">
+					<div class="col-md-6">
+						<div class="service-wrap text-center clearfix">
+							<div class="uptop">
+								<img src="uploads/cherii_service_01.jpg" alt="" class="img-responsive img-rounded alignleft">
+							</div>
+							<h4>Personalized Suggestions</h4>
+							<p>
+							Cherii takes into account your profile, preferences, and personality to suggest the best date ideas for you and your match. You can also filter by location, price, category, and rating to find the perfect date for any occasion.
+							</p>
+						</div><!-- end issue -->
+
+						<div class="service-wrap text-center clearfix">
+							<div class="uptop">
+								<img src="uploads/cherii_service_02.jpg" alt="" class="img-responsive img-rounded alignleft">
+							</div>
+							<h4>Verified Reviews</h4>
+							<p>
+							Cherii lets you read honest and helpful reviews from other users who have tried the date ideas before. You can also share your own feedback and ratings to help others find their ideal date.
+							</p>
+						</div><!-- end issue -->
+
+						<div class="service-wrap text-center lastchild clearfix">
+							<div class="uptop">
+								<img src="uploads/cherii_service_03.jpg" alt="" class="img-responsive img-rounded alignleft">
+							</div>
+							<h4>Safe and Secure</h4>
+							<p>
+							Cherii values your safety and security above all. We verify all our users and date providers to ensure a safe and trustworthy dating experience. We also protect your personal and financial information with the latest encryption technology. You can date with confidence and peace of mind with Cherii.
+							</p>
+						</div><!-- end issue -->
+					</div><!-- end col -->
+
+					<div class="col-md-6">
+						<div class="service-wrap text-center clearfix">
+							<div class="uptop">
+								<img src="uploads/cherii_service_04.jpg" alt="" class="img-responsive img-rounded alignleft">
+							</div>
+							<h4>Customer Support</h4>
+							<p>
+							Cherii is always here to help you with any questions or issues you may have. You can contact our friendly and professional customer support team anytime via phone, email, or chat. We are dedicated to providing you with the best service and support possible.
+							</p>
+						</div><!-- end issue -->
+
+						<div class="service-wrap text-center clearfix">
+							<div class="uptop">
+								<img src="uploads/cherii_service_05.jpg" alt="" class="img-responsive img-rounded alignleft">
+							</div>
+							<h4>Exclusive Deals</h4>
+							<p>
+							Cherii partners with local businesses and venues to offer you exclusive deals and discounts on various date options. You can save money and enjoy more with Cherii's special offers. Contact Us for more, or follow us on social medias.
+							</p>
+						</div><!-- end issue -->
+
+						<div class="service-wrap text-center lastchild clearfix">
+							<div class="uptop">
+								<img src="uploads/cherii_service_06.jpg" alt="" class="img-responsive img-rounded alignleft">
+							</div>
+							<h4>Fun Events</h4>
+							<p>
+							Cherii organizes fun and exciting events for singles and couples who want to meet new people and try new things. You can join speed dating, trivia nights, cooking classes, wine tasting, and more. Cherii's events are a great way to spice up your dating life and have some fun. Follow us on our socials, be sure to not miss out!
+							</p>
+						</div><!-- end issue -->
+					</div><!-- end col -->
+				</div>
+			</div><!-- end container -->
+		</div><!-- end section -->
+
+		<!-- testimonials start section -->
+		<div id="testimonials" class="parallax section db parallax-inner-bg">
+			<div class="container">
+				<div class="section-title row text-center">
+					<div class="col-md-8 offset-md-2">
+						<small>LET'S SEE OUR TESTIMONIALS</small>
+						<h3>HAPPY TESTIMONIALS</h3>
+					</div>
+				</div><!-- end title -->
+
+				<div class="row">
+					<div class="col-md-12 col-sm-12">
+						<div class="testi-carousel owl-carousel owl-theme">                                
+							<div class="testimonial clearfix">
+								<div class="testi-meta">
+									<i class="fa fa-quote-right"></i>
+									<img src="uploads/alt_testi_01.png" alt="" class="img-responsive alignright">
+									<h4>Carlos Rodriguez <small>- Engineer</small></h4>
+								</div>
+								<div class="desc">
+									<h3> Genuine and Reliable!</h3>
+									<p class="lead">I was tired of fake profiles and scams on other dating sites. I decided to give Cherii a try and I was pleasantly surprised. The people on Cherii are real and honest. I found a great partner who shares my values and goals. Cherii is the only dating site I trust. </p>
+								</div>
+								<!-- end testi-meta -->
+							</div>
+							<!-- end testimonial -->
+							<div class="testimonial clearfix">
+								<div class="testi-meta">
+									<i class="fa fa-quote-right"></i>
+									<img src="uploads/alt_testi_02.png" alt="" class="img-responsive alignright">
+									<h4>Lisa Wong <small>- Teacher</small></h4>
+								</div>
+								<div class="desc">
+									<h3> Fun and Easy!</h3>
+									<p class="lead">I was looking for a casual date and I found Cherii. It was so easy to sign up and start browsing profiles. I had a lot of fun chatting with different people and going on dates. Cherii is perfect for anyone who wants to spice up their dating life. </p>
+								</div>
+								<!-- end testi-meta -->
+							</div>
+							<!-- end testimonial -->
+							<div class="testimonial clearfix">
+								<div class="testi-meta">
+									<i class="fa fa-quote-right"></i>
+									<img src="uploads/alt_testi_03.png" alt="" class="img-responsive alignright">
+									<h4>Jacques Philips <small>- Designer</small></h4>
+								</div>
+								<div class="desc">
+									<h3> Awesome Services!</h3>
+									<p class="lead">Cherii is the best dating site I have ever used. The interface is user-friendly, the matches are accurate, and the support team is responsive. I have met some amazing people through Cherii and I highly recommend it. </p>
+								</div>
+								<!-- end testi-meta -->
+							</div>
+							<!-- end testimonial -->
+							<div class="testimonial clearfix">
+								<div class="testi-meta">
+									<i class="fa fa-quote-right"></i>
+									<img src="uploads/alt_testi_04.png" alt="" class="img-responsive alignright">
+									<h4>James Fernando <small>- Manager of Something</small></h4>
+								</div>
+								<div class="desc">
+									<h3> Found my Wife!</h3>
+									<p class="lead">I joined Cherii on a whim and I never expected to meet the love of my life. We had so much in common and we hit it off right away. Thank you Cherii for making my dreams come true. </p>
+								</div>
+								<!-- end testi-meta -->
+							</div>
+							<!-- end testimonial -->
+						</div><!-- end carousel -->
+					</div><!-- end col -->
+				</div><!-- end row -->
+			</div><!-- end container -->
+		</div><!-- end section -->
+		<!-- testimonials end section -->
+
+		<!-- footer-rights start -->
+		<div class="footer-rights">
+			<div class="container">
+				<div class="footer-distributed">
+					<div class="footer-left">
+						<p class="footer-links">
+							<a href="#">Home</a>
+							<a href="#">About</a>
+							<a href="#">Faq</a>
+							<a href="#">Contact</a>
+						</p>
+						<p class="footer-company-name"> WAT Summer Project Cherii <br> Apoorva Singh, Pierre Rheeder, Berkay Doruk, Oghuzhan Ozdil</p>
+					</div>
+				</div>
+			</div><!-- end container -->
+		</div>
+		<!-- end footer-rights -->
+	</div>
+    
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+	<script src="js/responsive-tabs.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+</body>
+</html>
