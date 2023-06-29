@@ -2747,7 +2747,7 @@ summary {
     /* position: absolute; */
     /* top: -50%; */
     /* left: calc(50% + 12rem); */
-    transform: translate(32%, -10%);
+    transform: translate(0%, 0%);
   }
   
   .pic {
@@ -2799,7 +2799,7 @@ summary {
     position: absolute;
     top: 50%;
     left: 0;
-    transform: translate(-25rem, -10%);
+    transform: translate(0rem, -70%);
     width: 24rem;
     height: 32rem;
     padding: 1rem 2rem 1rem 1rem;
